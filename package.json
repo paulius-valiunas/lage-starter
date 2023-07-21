@@ -1,0 +1,11 @@
+{
+  "name": "monorepo",
+  "private": true,
+  "scripts": {
+    "build": "lage build",
+    "start-a": "pnpm --filter sample-a start"
+  },
+  "devDependencies": {
+    "lage" : "^2.7.5"
+  }
+}

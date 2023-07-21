@@ -1,0 +1,14 @@
+{
+  "name": "sample-b",
+  "version": "1.0.0",
+  "main": "lib/index.js",
+  "type": "module",
+  "scripts": {
+    "build": "tsc",
+    "start": "node ."
+  },
+  "devDependencies": {
+    "@itwin/build-tools": "^4.0.5",
+    "typescript": "~5.0.4"
+  }
+}

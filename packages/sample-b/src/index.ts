@@ -1,0 +1,1 @@
+export default "You are a wizard, Harry!"
