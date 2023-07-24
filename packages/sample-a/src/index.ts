@@ -1,2 +1,2 @@
-import whatItSays from "sample-b";
+import whatItSays from "@bentley/sample-b";
 console.log(`Sample-b says: ${whatItSays}`);

@@ -2,10 +2,12 @@
   "name": "monorepo",
   "private": true,
   "scripts": {
-    "build": "lage build",
-    "start-a": "pnpm --filter sample-a start"
+    "build": "lage build --grouped",
+    "change": "beachball change --no-commit",
+    "hello": "pnpm --filter sample-a start"
   },
   "devDependencies": {
-    "lage" : "^2.7.5"
+    "lage" : "^2.7.5",
+    "beachball": "^2.35.0"
   }
 }

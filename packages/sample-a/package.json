@@ -1,5 +1,5 @@
 {
-  "name": "sample-a",
+  "name": "@bentley/sample-a",
   "version": "1.0.0",
   "main": "lib/index.js",
   "type": "module",
@@ -8,7 +8,7 @@
     "start": "node ."
   },
   "dependencies": {
-    "sample-b": "workspace:*"
+    "@bentley/sample-b": "workspace:*"
   },
   "devDependencies": {
     "@itwin/build-tools": "^4.0.5",

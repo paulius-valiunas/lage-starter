@@ -1,5 +1,5 @@
 {
-  "name": "sample-b",
+  "name": "@bentley/sample-b",
   "version": "1.0.0",
   "main": "lib/index.js",
   "type": "module",
