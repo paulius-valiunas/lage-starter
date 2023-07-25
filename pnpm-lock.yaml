@@ -18,7 +18,7 @@ importers:
   packages/sample-a:
     dependencies:
       '@bentley/sample-b':
-        specifier: workspace:*
+        specifier: workspace:^
         version: link:../sample-b
     devDependencies:
       '@itwin/build-tools':

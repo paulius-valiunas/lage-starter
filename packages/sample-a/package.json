@@ -8,7 +8,7 @@
     "start": "node ."
   },
   "dependencies": {
-    "@bentley/sample-b": "workspace:*"
+    "@bentley/sample-b": "workspace:^"
   },
   "devDependencies": {
     "@itwin/build-tools": "^4.0.5",
