@@ -20,5 +20,4 @@ module.exports = {
     },
   },
   publish: true,
-  registry: "http://localhost:4873/",
 };
