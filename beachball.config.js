@@ -14,8 +14,8 @@ module.exports = {
   changelog: {
     customRenderers: {
       renderEntry: (entry) => {
-        const commitLink = execSync("git log -1 --pretty=format:%b " + entry.commit).toString();
-        return `- ${entry.comment} ([commit](${commitLink}))`;
+        const commitMessage = execSync("git log -1 --pretty=format:%s " + entry.commit).toString();
+        return `- ${entry.comment} ([commit](${commitMessage}))`;
       },
     },
   },
