@@ -1,0 +1,9 @@
+{
+  "type": "minor",
+  "comment": {
+    "title": "test change"
+  },
+  "packageName": "@bentley/sample-a",
+  "email": "66480813+paulius-valiunas@users.noreply.github.com",
+  "dependentChangeType": "patch"
+}
