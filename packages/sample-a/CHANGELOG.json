@@ -2,6 +2,23 @@
   "name": "@bentley/sample-a",
   "entries": [
     {
+      "date": "Wed, 26 Jul 2023 11:56:54 GMT",
+      "tag": "@bentley/sample-a_v1.2.1",
+      "version": "1.2.1",
+      "comments": {
+        "patch": [
+          {
+            "author": "66480813+paulius-valiunas@users.noreply.github.com",
+            "package": "@bentley/sample-a",
+            "commit": "1317d569090bde8d840c7bd737e9112674af9f41",
+            "comment": {
+              "title": ""
+            }
+          }
+        ]
+      }
+    },
+    {
       "date": "Wed, 26 Jul 2023 11:48:54 GMT",
       "tag": "@bentley/sample-a_v1.2.0",
       "version": "1.2.0",
