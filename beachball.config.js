@@ -4,6 +4,7 @@
  *--------------------------------------------------------------------------------------------*/
 const {execSync} = require("child_process")
 /** @type {import("beachball").BeachballConfig } */
+const prRegex = /\(#[0-9]+\)/g;
 module.exports = {
   bumpDeps: false,
   access: "public",
@@ -15,7 +16,8 @@ module.exports = {
     customRenderers: {
       renderEntry: (entry) => {
         const commitMessage = execSync("git log -1 --pretty=format:%s " + entry.commit).toString();
-        return `- ${entry.comment} ([commit](${commitMessage}))`;
+        const matches = [...commitMessage.matchAll(prRegex)];
+        return `- ${entry.comment}${matches?.length > 0 ? ` ${matches[0][0]}` : ""}`;
       },
     },
   },

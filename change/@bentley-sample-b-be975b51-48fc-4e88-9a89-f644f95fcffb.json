@@ -1,0 +1,7 @@
+{
+  "type": "minor",
+  "comment": "another big change",
+  "packageName": "@bentley/sample-b",
+  "email": "66480813+paulius-valiunas@users.noreply.github.com",
+  "dependentChangeType": "patch"
+}
