@@ -1,1 +1,1 @@
-export default "You are a wizard, Harry!"
+export default "I like trains!"
