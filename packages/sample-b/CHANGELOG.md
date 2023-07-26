@@ -1,8 +1,16 @@
 # Change Log - @bentley/sample-b
 
-This log was last generated on Wed, 26 Jul 2023 12:02:34 GMT and should not be manually modified.
+This log was last generated on Wed, 26 Jul 2023 12:21:28 GMT and should not be manually modified.
 
 <!-- Start content -->
+
+## 1.1.0
+
+Wed, 26 Jul 2023 12:21:28 GMT
+
+### Minor changes
+
+- another big change (#2)
 
 ## 1.0.2
 
