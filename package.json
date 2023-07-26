@@ -4,7 +4,8 @@
   "scripts": {
     "build": "lage build --grouped",
     "change": "beachball change --no-commit",
-    "hello": "pnpm --filter sample-a start"
+    "hello": "pnpm --filter sample-a start",
+    "publish": "beachball publish --new"
   },
   "devDependencies": {
     "lage" : "^2.7.5",

@@ -1,0 +1,20 @@
+{
+  "name": "@bentley/sample-a",
+  "entries": [
+    {
+      "date": "Wed, 26 Jul 2023 10:57:40 GMT",
+      "tag": "@bentley/sample-a_v1.1.0",
+      "version": "1.1.0",
+      "comments": {
+        "minor": [
+          {
+            "author": "66480813+paulius-valiunas@users.noreply.github.com",
+            "package": "@bentley/sample-a",
+            "commit": "844461ff79071312edc99e518cb0bbc39c886737",
+            "comment": "add beachball"
+          }
+        ]
+      }
+    }
+  ]
+}
