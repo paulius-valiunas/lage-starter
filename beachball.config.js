@@ -2,6 +2,7 @@
  * Copyright (c) Bentley Systems, Incorporated. All rights reserved.
  * See LICENSE.md in the project root for license terms and full copyright notice.
  *--------------------------------------------------------------------------------------------*/
+const {execSync} = require("child_process")
 /** @type {import("beachball").BeachballConfig } */
 module.exports = {
   bumpDeps: false,
@@ -13,7 +14,7 @@ module.exports = {
   changelog: {
     customRenderers: {
       renderEntry: (entry) => {
-        const commitLink = `https://github.com/iTwin/presentation/commit/${entry.commit}`;
+        const commitLink = execSync("git log -1 --pretty=format:%b " + entry.commit).toString();
         return `- ${entry.comment} ([commit](${commitLink}))`;
       },
     },
