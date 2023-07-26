@@ -2,6 +2,21 @@
   "name": "@bentley/sample-b",
   "entries": [
     {
+      "date": "Wed, 26 Jul 2023 12:02:34 GMT",
+      "tag": "@bentley/sample-b_v1.0.2",
+      "version": "1.0.2",
+      "comments": {
+        "patch": [
+          {
+            "author": "66480813+paulius-valiunas@users.noreply.github.com",
+            "package": "@bentley/sample-b",
+            "commit": "f38f6cf77b56d3603b0c30eee71a9d071618424b",
+            "comment": "testing changelog entry"
+          }
+        ]
+      }
+    },
+    {
       "date": "Wed, 26 Jul 2023 10:57:40 GMT",
       "tag": "@bentley/sample-b_v1.0.1",
       "version": "1.0.1",
