@@ -6,7 +6,6 @@ const {execSync} = require("child_process")
 /** @type {import("beachball").BeachballConfig } */
 const prRegex = /\(#[0-9]+\)/g;
 module.exports = {
-  bumpDeps: false,
   access: "public",
   tag: "latest",
   scope: ["packages/**"],
