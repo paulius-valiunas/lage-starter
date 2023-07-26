@@ -3,12 +3,15 @@
   "version": "1.1.0",
   "main": "lib/index.js",
   "type": "module",
+  "bin": {
+    "sample-a": "node ."
+  },
   "scripts": {
     "build": "tsc",
     "start": "node ."
   },
   "dependencies": {
-    "@bentley/sample-b": "^1.0.1"
+    "@bentley/sample-b": "workspace:^"
   },
   "devDependencies": {
     "@itwin/build-tools": "^4.0.5",
