@@ -8,7 +8,6 @@ module.exports = {
     build: ["^build"],
     cover: ["build"],
     lint: ["build"],
-    docs: ["build"],
     clean: {
       cache: false,
     },
