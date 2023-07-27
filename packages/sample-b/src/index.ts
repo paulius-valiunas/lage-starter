@@ -1,1 +1,1 @@
-export default "I'm in danger!"
+export default "https://www.youtube.com/watch?v=dQw4w9WgXcQ"
