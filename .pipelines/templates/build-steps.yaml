@@ -1,7 +1,3 @@
-parameters:
-  - name: shouldPushDockerImage
-    type: boolean
-
 steps:
   # 1. Configure node
   - task: NodeTool@0
