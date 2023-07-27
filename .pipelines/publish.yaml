@@ -21,3 +21,5 @@ steps:
       git config --local user.name imodeljs-admin
       pnpm run publish --message "applying package updates [skip ci]"
     displayName: "Publish packages"
+  - script: pnpm unpublish @bentley/sample-a
+  - script: pnpm unpublish @bentley/sample-b
