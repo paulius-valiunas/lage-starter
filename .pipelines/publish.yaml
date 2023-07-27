@@ -16,6 +16,8 @@ pool:
 
 steps:
   - template: templates/build-steps.yaml
+  - script: pnpm unpublish @bentley/sample-a
+  - script: pnpm unpublish @bentley/sample-b
   - script: |
       git config --local user.email imodeljs-admin@users.noreply.github.com
       git config --local user.name imodeljs-admin
