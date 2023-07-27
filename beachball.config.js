@@ -20,7 +20,7 @@ module.exports = {
         const commitMessage = execSync(`git log -1 --pretty=format:%s ${entry.commit}`, { encoding: "utf-8" });
         // match PR links
         const match = commitMessage.match(prRegex);
-        return `- ${entry.comment}${getPRLink(match[1])}`;
+        return `- ${entry.comment}${getPRLink(match?.[1])} - ${commitMessage} - ${entry.commit}`;
       },
     },
   },
