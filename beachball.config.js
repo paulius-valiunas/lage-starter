@@ -20,7 +20,7 @@ module.exports = {
         const commitMessage = execSync(`git log -1 --pretty=format:%s ${entry.commit}`, { encoding: "utf-8" });
         // match PR links
         const match = commitMessage.match(prRegex);
-        return `- ${entry.comment}${getPRLink(match?.[1])} - ${commitMessage} - ${entry.commit}`;
+        return `- ${entry.comment}${getPRLink(match?.[1])}`;
       },
     },
   },
@@ -62,5 +62,3 @@ function getPRLink(pr) {
     return ` ([#${pr}](${prPrefix}${pr}))`;
   return "";
 }
-
-// console.log(module.exports.changelog.customRenderers.renderEntry({commit: "5e1af431910846231d0207696752b7b693ebbc62", comment: "test comment"}));

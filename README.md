@@ -25,3 +25,4 @@ This repository acts as a starter for Lage-based monorepos to help you migrate f
 - If you want to run a command on a specific package only, use `--filter` before the command. For example, `pnpm --filter=sample-b build`
 - Only add changelog entries when the changes require them. Adding an entry for every PR only makes the changelog harder to read.
 - Prefer `workspace:^` or `workspace:~` over `workspace:*` when declaring your workspace dependencies. This will allow people to use your packages more freely without having to match the versions exactly.
+- Changelog files will include links to pull requests _only if_ you use squash merging.
