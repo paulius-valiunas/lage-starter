@@ -30,7 +30,7 @@ module.exports = {
 const remoteUrl = execSync("git remote get-url origin", { encoding: "utf-8" }).trim();
 const prPrefix = getPRPrefix(remoteUrl);
 const prRegex = prPrefix.startsWith("https://github.com")
-  ? /\(#([0-9]+)\)/
+  ? /#([0-9]+)/
   : /^Merged PR ([0-9]+):/;
 
 /** @type {(a:string) => string | undefined} */
