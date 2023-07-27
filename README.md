@@ -21,7 +21,8 @@ This repository acts as a starter for Lage-based monorepos to help you migrate f
 
 ## Tips for using your new monorepo
 
-- Instead of `rush`, always use `pnpm` to run commands. `rush build` becomes `pnpm build` etc.
+- Instead of `rush`, always use `pnpm run` to run commands. `rush build` becomes `pnpm run build`
+- You can skip `run` and just do `pnpm <command>` if you know that the command is not a reserved pnpm keyword (`install`, `publish` etc.)
 - If you want to run a command on a specific package only, use `--filter` before the command. For example, `pnpm --filter=sample-b build`
 - Only add changelog entries when the changes require them. Adding an entry for every PR only makes the changelog harder to read.
 - Prefer `workspace:^` or `workspace:~` over `workspace:*` when declaring your workspace dependencies. This will allow people to use your packages more freely without having to match the versions exactly.

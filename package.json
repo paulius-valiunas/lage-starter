@@ -3,6 +3,9 @@
   "private": true,
   "scripts": {
     "build": "lage build --grouped",
+    "cover": "lage cover --grouped",
+    "test": "lage test --grouped",
+    "lint": "lage lint --grouped",
     "change": "beachball change --no-commit",
     "hello": "pnpm --filter sample-a start",
     "publish": "beachball publish --new"
