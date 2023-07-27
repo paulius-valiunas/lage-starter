@@ -1,8 +1,16 @@
 # Change Log - @bentley/sample-b
 
-This log was last generated on Wed, 26 Jul 2023 12:21:28 GMT and should not be manually modified.
+This log was last generated on Thu, 27 Jul 2023 10:45:45 GMT and should not be manually modified.
 
 <!-- Start content -->
+
+## 1.2.0
+
+Thu, 27 Jul 2023 10:45:45 GMT
+
+### Minor changes
+
+- fake change - rename in PR - 969d9a55a1dd86df3e1f337b441991ed7760f38d
 
 ## 1.1.0
 
