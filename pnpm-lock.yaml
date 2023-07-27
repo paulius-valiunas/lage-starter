@@ -20,6 +20,9 @@ importers:
       '@bentley/sample-b':
         specifier: workspace:^
         version: link:../sample-b
+      '@bentley/sample-c':
+        specifier: workspace:^
+        version: link:../sample-c
     devDependencies:
       '@itwin/build-tools':
         specifier: ^4.0.5
@@ -29,6 +32,15 @@ importers:
         version: 5.0.4
 
   packages/sample-b:
+    devDependencies:
+      '@itwin/build-tools':
+        specifier: ^4.0.5
+        version: 4.0.5
+      typescript:
+        specifier: ~5.0.4
+        version: 5.0.4
+
+  packages/sample-c:
     devDependencies:
       '@itwin/build-tools':
         specifier: ^4.0.5
