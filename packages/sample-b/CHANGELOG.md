@@ -1,8 +1,16 @@
 # Change Log - @bentley/sample-b
 
-This log was last generated on Wed, 26 Jul 2023 12:21:28 GMT and should not be manually modified.
+This log was last generated on Thu, 27 Jul 2023 10:27:14 GMT and should not be manually modified.
 
 <!-- Start content -->
+
+## 1.2.0
+
+Thu, 27 Jul 2023 10:27:14 GMT
+
+### Minor changes
+
+- fake change ([#2](https://github.com/paulius-valiunas/lage-starter/pull/2))
 
 ## 1.1.0
 
