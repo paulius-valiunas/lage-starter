@@ -4,11 +4,7 @@ parameters:
     default: false
     displayName: "Publish pre-release versions"
     
-trigger:
-  branches:
-    include:
-      - main
-      - master
+trigger: none
 pr: none
 
 pool:
