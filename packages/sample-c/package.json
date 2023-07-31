@@ -1,18 +1,11 @@
 {
-  "name": "@bentley/sample-a",
-  "version": "1.2.2",
+  "name": "@bentley/sample-c",
+  "version": "1.0.0",
   "main": "lib/index.js",
   "type": "module",
-  "bin": {
-    "sample-a": "node ."
-  },
   "scripts": {
     "build": "tsc",
     "start": "node ."
-  },
-  "dependencies": {
-    "@bentley/sample-b": "workspace:^",
-    "@bentley/sample-c": "workspace:^"
   },
   "devDependencies": {
     "@itwin/build-tools": "^4.0.5",
